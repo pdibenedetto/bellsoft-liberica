@@ -1,36 +1,34 @@
 module github.com/paketo-buildpacks/bellsoft-liberica/v9
 
-go 1.17
+go 1.23
 
 require (
-	github.com/buildpacks/libcnb v1.26.0
-	github.com/heroku/color v0.0.6
-	github.com/onsi/gomega v1.19.0
-	github.com/paketo-buildpacks/libjvm v1.36.1
-	github.com/paketo-buildpacks/libpak v1.59.0
-	github.com/sclevine/spec v1.4.0
+	github.com/paketo-buildpacks/libjvm v1.46.0
+	github.com/paketo-buildpacks/libpak v1.72.1
 )
 
 require (
-	github.com/BurntSushi/toml v1.1.0 // indirect
-	github.com/Masterminds/semver/v3 v3.1.1 // indirect
-	github.com/creack/pty v1.1.17 // indirect
+	github.com/BurntSushi/toml v1.4.0 // indirect
+	github.com/Masterminds/semver/v3 v3.3.1 // indirect
+	github.com/buildpacks/libcnb v1.30.4 // indirect
+	github.com/creack/pty v1.1.24 // indirect
 	github.com/h2non/filetype v1.1.3 // indirect
-	github.com/imdario/mergo v0.3.12 // indirect
-	github.com/magiconair/properties v1.8.6 // indirect
-	github.com/mattn/go-colorable v0.1.12 // indirect
-	github.com/mattn/go-isatty v0.0.14 // indirect
+	github.com/heroku/color v0.0.6 // indirect
+	github.com/imdario/mergo v0.3.16 // indirect
+	github.com/magiconair/properties v1.8.9 // indirect
+	github.com/mattn/go-colorable v0.1.14 // indirect
+	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mattn/go-shellwords v1.0.12 // indirect
-	github.com/miekg/dns v1.1.48 // indirect
+	github.com/miekg/dns v1.1.63 // indirect
 	github.com/mitchellh/hashstructure/v2 v2.0.2 // indirect
-	github.com/pavel-v-chernykh/keystore-go/v4 v4.3.0 // indirect
-	github.com/pelletier/go-toml v1.9.4 // indirect
+	github.com/onsi/gomega v1.36.2 // indirect
+	github.com/pavlo-v-chernykh/keystore-go/v4 v4.5.0 // indirect
 	github.com/xi2/xz v0.0.0-20171230120015-48954b6210f8 // indirect
-	golang.org/x/mod v0.4.2 // indirect
-	golang.org/x/net v0.0.0-20220225172249-27dd8689420f // indirect
-	golang.org/x/sys v0.0.0-20220319134239-a9b59b0215f8 // indirect
-	golang.org/x/text v0.3.7 // indirect
-	golang.org/x/tools v0.1.6-0.20210726203631-07bc1bf47fb2 // indirect
-	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
-	gopkg.in/yaml.v2 v2.4.0 // indirect
+	golang.org/x/crypto v0.32.0 // indirect
+	golang.org/x/mod v0.22.0 // indirect
+	golang.org/x/net v0.34.0 // indirect
+	golang.org/x/sync v0.10.0 // indirect
+	golang.org/x/sys v0.29.0 // indirect
+	golang.org/x/tools v0.29.0 // indirect
+	software.sslmate.com/src/go-pkcs12 v0.5.0 // indirect
 )
